@@ -2,4 +2,6 @@
 
 require:
     - play 1.4.5
-    - org.postgresql -> postgresql 9.1-901.jdbc4 
+    - org.postgresql -> postgresql 9.1-901.jdbc4:
+      force:
+        true 
