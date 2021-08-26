@@ -2,7 +2,9 @@ package controllers;
 
 import models.Usuario;
 import play.jobs.Job;
+import play.jobs.OnApplicationStart;
 
+@OnApplicationStart
 public class Inicializador extends Job{
 	
 	@Override
